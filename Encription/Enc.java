@@ -8,12 +8,12 @@ public class Enc {
         String ret = ""; // Membuat variable ret untuk menghasilkan string dari hasil encrypt
         for (char c : data.toCharArray()) { // Melakukan perulangan dan mengambil setiap karakter dari string yang ada diparameter pertama dan menampungnya di variable c
             if(c >= 'a' && c <= 'z') { // Memeriksa jika karakter berada diantara a - z
-                c = (char) (c + key);
+                c = (char) (c + key); // menambahkan karakter yang ada pada variable c dengan key nya
                 if(c > 'z') {
-                    c = (char) (c+'a'-'z'-1);
+                    c = (char) (c+'a'-'z'-1); 
                 }
-                ret += c;
-            } else if(c >= 'A' && c <= 'Z') {
+                ret += c; // Menampung variable c kedalam variable ret
+            } else if(c >= 'A' && c <= 'Z') { // Sama dengan if yang diatas hanya berbeda huruf besar dan kecil
                 c = (char) (c + key);    
                 if(c > 'Z') {
                     c = (char) (c+'A'-'Z'-1);
@@ -23,6 +23,6 @@ public class Enc {
                 ret += c;   
             }
         }
-        return ret;
+        return ret; // mengembalikan nilai ret
     }
 }
