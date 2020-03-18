@@ -19,7 +19,7 @@ public class Enc {
                     c = (char) (c+'A'-'Z'-1);
                 }
                 ret += c;
-            } else {
+            } else { // Jika isi dari c tidak ada diantara a - z maka nilai akan dikembalikan apa adanya
                 ret += c;   
             }
         }
