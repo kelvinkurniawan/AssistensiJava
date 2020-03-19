@@ -2,6 +2,7 @@
 
 ## Penjelasan ada di PPT, silahkan dipelajari
 
-Contoh nya nanti akan di update
+Employee.java dan createEmployee.java harus dijalankan keduanya, method main nya ada di createEmployee.java
+Contoh lainnya ada di presentasi, silahkan dipelajari
 
-### Link PowerPoint : http://bit.ly/ObjectClass
+### Link Presentasi : http://bit.ly/ObjectClass
