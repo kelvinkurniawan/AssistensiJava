@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class Main {
+public class VectorExample {
 
     public static void main(String[] args) {
 
@@ -9,6 +9,8 @@ public class Main {
         //menambahkan elemen menggunakan method add()
         item.add("meja");
         item.add("kursi");
+        item.add("payung");
+        item.remove(2);
 
         //menambahkan elemen dengan menuliskan index
         //elemen yang sudah ada pada index tersebut akan mundur
