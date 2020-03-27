@@ -7,7 +7,7 @@ public class MatriksArray {
         Scanner input = new Scanner(System.in);
 
         int i,j;
-        int baris, kolom, jumlah;
+        int baris, kolom;
         int matriksA[][] = new int[10][10];
         int matriksB[][] = new int[10][10];
         int hasil[][] = new int[10][10];
