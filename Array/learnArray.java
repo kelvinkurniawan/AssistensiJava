@@ -19,6 +19,8 @@ public class learnArray{
         for(int i = 0; i < jumlah; i++){
             System.out.println("Bilangan ke-" + i + " adalah " + arr[i]); // Mencetak nilai dari variable arraynya
         }
+
+        sc.close();
     }
     
 }
